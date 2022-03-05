@@ -111,7 +111,7 @@ li a {
     }
 }
 
-.menuDeroulant:active > a:after{
+.menuDeroulant:hover > a:after{
     animation: rotationFleche 0.2s linear forwards;
 }
 
@@ -130,6 +130,6 @@ li a {
     }
 }
 
-.menuDeroulant:active > .sousMenu {
+.menuDeroulant:hover > .sousMenu {
     animation: apparitionSousMenu 1s forwards;
 }
