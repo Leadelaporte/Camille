@@ -6,6 +6,7 @@ body {
     background: linear-gradient(160deg, #76E7F5 20%, #07ACC4 40%, #078FC4 100%);
     margin: 0px;
     padding: 0;
+    margin-bottom: 0;
 }
 
 html, body {
@@ -25,6 +26,7 @@ html, body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    height: 80%;
 }
 
 p {
@@ -56,10 +58,6 @@ nav > a {
     background-color: white;
 }
 
-nav > a:hover {
-    
-}
-
 #ch{
     display: none;
 }
@@ -68,7 +66,7 @@ nav > a:hover {
     width: 30px;
     height: 30px;
     background: linear-gradient(#FFF 0%, #FFF 20%, transparent 21%, transparent 40%, #FFF 41%, #FFF 60%, transparent 61%, transparent 80%, #FFF 81%, #FFF 100%);
-    margin: 4px;
+    margin: 10px;
     display: block;
 }
 
