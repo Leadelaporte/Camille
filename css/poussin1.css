@@ -6,7 +6,7 @@ body {
     background: linear-gradient(160deg, #76E7F5 20%, #07ACC4 40%, #078FC4 100%);
     margin: 0px;
     padding: 0;
-    margin-bottom: 0;
+    
 }
 
 html, body {
@@ -82,11 +82,19 @@ nav > a {
     nav > a {
         width: auto;
     }
-    #ch:checked+nav{
+    #ch:checked+nav {
         transform: translate(0,0);
         transition: all 0.5s ease;
     }
     #lab{
         display: block;
+    }
+    #returnCheck {
+        display: flex;
+    }
+
+    .fas {
+        color: white;
+        margin: 15px;
     }
 }

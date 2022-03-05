@@ -80,3 +80,13 @@ form {
     justify-content: center;
     flex-direction: column;
 }
+
+.fa-solid {
+    margin-bottom: 10px;
+}
+
+.fas {
+    color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+}
