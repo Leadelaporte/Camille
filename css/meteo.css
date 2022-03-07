@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-    background-image: url(/css/fdm.png);
+    background-image: url(css/fdm.png);
     background-size: cover;
     margin: 0px;
     padding: 0;
