@@ -3,7 +3,8 @@ html, body {
 }
 
 body {
-    background: linear-gradient(160deg, #76E7F5 20%, #07ACC4 40%, #078FC4 100%);
+    background-image: url(/css/fdm.png);
+    background-size: cover;
     margin: 0px;
     padding: 0;
     
@@ -34,20 +35,28 @@ body {
 }
 
 #city {
-    background-color:#07384c;
+    background-color:#6e4a22;
+    font-family: 'Antic Didone', serif;
+
 }
 
 #temp {
-    background-color: #0F7BA5;
+    background-color: #8a663f;
+    font-family: 'Antic Didone', serif;
+
 }
 
 #humidity {
-    background-color: #0e6081;
+    background-color: #bb8953;
+    font-family: 'Antic Didone', serif;
+
 }
 
 #wind {
-    background-color: #09465e;
+    background-color: #6f4e29;
+    font-family: 'Antic Didone', serif;
 }
+
 
 input {
     border-radius: 10px;
@@ -58,7 +67,8 @@ input {
     padding-left: 20px;
     margin-top: 3em;
     margin-bottom: 10px;
-    
+    font-family: 'Antic Didone', serif; 
+    font-weight: bold;
 }
 
 button {
@@ -70,7 +80,11 @@ button {
     padding-left: 20px;
     margin-top: 10px;
     margin-bottom: 12em;
-    background-color: #0e6081;
+    background-color: #8a663f;
+    font-family: 'Antic Didone', serif;
+    font-weight: bold;
+    color: white;
+
     
 }
 
@@ -79,6 +93,7 @@ form {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: -20px;
 }
 
 .fa-solid {
@@ -86,7 +101,7 @@ form {
 }
 
 .fas {
-    color: white;
+    color: #8a663f;
     margin-top: 15px;
     margin-left: 15px;
 }

@@ -3,7 +3,8 @@
 }
 
 body {
-    background: linear-gradient(160deg, #76E7F5 20%, #07ACC4 40%, #078FC4 100%);
+    background-image: url(/css/fda2.png);
+    background-size: cover;
     margin: 0px;
     padding: 0;
     
@@ -30,15 +31,22 @@ html, body {
 }
 
 p {
-    color: white;
+    color: #bb8953;
     font-size: 1.5em;
     font-weight: bold;
+    font-family: 'Antic Didone', serif;
+    margin-bottom: -5px;
+
 }
 
 h1 {
-    color: white;
+    color: #8a663f;
     display: flex;
     text-align: center;
+    font-family: 'Antic Didone', serif;
+    font-size: 1.8em;
+    margin-top: -30px;
+
 }
 
 nav {
@@ -52,10 +60,13 @@ nav > a {
     text-align: center;
     box-sizing: border-box;
     padding: 20px;
-    color: #07ACC4;
+    color: #8a663f;
+    font-weight: bold;
     margin: 1px;
     text-decoration: none;
     background-color: white;
+    font-family: 'Antic Didone', serif;
+
 }
 
 #ch{
@@ -65,7 +76,7 @@ nav > a {
 #lab{
     width: 30px;
     height: 30px;
-    background: linear-gradient(#FFF 0%, #FFF 20%, transparent 21%, transparent 40%, #FFF 41%, #FFF 60%, transparent 61%, transparent 80%, #FFF 81%, #FFF 100%);
+    background: linear-gradient(#8a663f 0%, #8a663f 20%, transparent 21%, transparent 40%, #8a663f 41%, #8a663f 60%, transparent 61%, transparent 80%, #8a663f 81%, #8a663f 100%);
     margin: 10px;
     display: block;
 }
@@ -91,10 +102,14 @@ nav > a {
     }
     #returnCheck {
         display: flex;
+        margin-left: 15px;
+        margin-top: 40px;
     }
 
     .fas {
-        color: white;
-        margin: 15px;
+        color: #8a663f;
+        margin-top: 15px;
+        margin-right: 15px;
+        
     }
 }
