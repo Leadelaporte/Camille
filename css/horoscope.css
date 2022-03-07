@@ -1,0 +1,18 @@
+.style {
+    padding: 5px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url(fdm.png);
+    background-size: cover;
+}
+
+.fas {
+    color: #d32b4c;
+    margin-top: 15px;
+    margin-left: 5px;
+}

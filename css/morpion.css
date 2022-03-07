@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    font-family: 'Antic Didone', serif;
+    background-image: url(fdt.png);
+    background-size: cover;
+}
+
+#jeu {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 300px;
+    margin: auto;
+}
+
+.case {
+    border: 1px solid black;
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+h1 {
+    margin-top: 1em;
+    margin-bottom: 4em;
+    color: #8a663f;
+    font-weight: bold;
+}
+
+.fas {
+    color: #8a663f;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 20em;
+    
+}
+
+h2 {
+    margin-top: 6em;
+}
+
+button {
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px #373636;
+    border: 1px;
+    height: 30px;
+    width: 200px;
+    padding-left: 20px;
+    background-color: #8a663f;
+    font-family: 'Antic Didone', serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+}
