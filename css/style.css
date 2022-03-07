@@ -9,6 +9,12 @@ html, body {
     height: 100%;
 }
 
+.mdp {
+    display: flex;
+    margin-left: -15px;
+}
+
+
 .ensemble {
     display: flex;
     justify-content: center;
@@ -47,8 +53,4 @@ button {
 
 }
 
-.mdp {
-    display: flex;
-    
-}
 
